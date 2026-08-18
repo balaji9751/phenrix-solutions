@@ -94,14 +94,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultation }) => {
           <Link 
             to="/" 
             id="brand-logo-link"
-            className="group focus:outline-none focus:ring-2 focus:ring-[#2563eb] rounded-lg p-0.5 sm:p-1 shrink-0"
+            className="group focus:outline-none focus:ring-2 focus:ring-[#2563eb] rounded-lg p-1 shrink-0 transition-all duration-200 hover:scale-105"
           >
-            <div className="block sm:hidden">
-              <Logo size="sm" variant="dark" />
-            </div>
-            <div className="hidden sm:block">
-              <Logo size="md" variant="dark" />
-            </div>
+            <Logo size="md" variant="dark" />
           </Link>
 
           {/* Desktop Navigation */}

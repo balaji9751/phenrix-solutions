@@ -18,6 +18,7 @@ import { WhyUsPage } from './pages/WhyUsPage';
 import { PortfolioPage } from './pages/PortfolioPage';
 import { ContactPage } from './pages/ContactPage';
 import { LegalPage } from './pages/LegalPage';
+import { LogoShowcasePage } from './pages/LogoShowcasePage';
 import { AlertCircle, ArrowLeft } from 'lucide-react';
 
 // Scroll to top helper on route change
@@ -180,6 +181,14 @@ export default function App() {
               element={
                 <PageTransition>
                   <LegalPage initialTab="terms" />
+                </PageTransition>
+              }
+            />
+            <Route
+              path="/logo-showcase"
+              element={
+                <PageTransition>
+                  <LogoShowcasePage />
                 </PageTransition>
               }
             />

@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenConsultation }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 pb-12 border-b border-slate-800">
           {/* Column 1: Company Profile */}
           <div className="space-y-4">
-            <Link to="/" className="inline-block group focus:outline-none focus:ring-2 focus:ring-[#2563eb] rounded-lg">
+            <Link to="/" className="inline-block group focus:outline-none focus:ring-2 focus:ring-[#2563eb] rounded-lg transition-all duration-200 hover:scale-105">
               <Logo size="md" variant="light" />
             </Link>
 
