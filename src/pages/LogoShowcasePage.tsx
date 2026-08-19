@@ -58,19 +58,19 @@ export const LogoShowcasePage: React.FC = () => {
         <div className="bg-white rounded-2xl border border-slate-200 p-6 mb-8 shadow-xs">
           <h2 className="text-lg font-bold text-slate-950 mb-3 flex items-center gap-2">
             <span className="w-2.5 h-2.5 rounded-full bg-[#2563eb]" />
-            The Phoenix Monogram Concept
+            The 3D Monogram Concept
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-600">
             <div>
               <p className="font-bold text-slate-900 mb-1">Symbolism</p>
               <p className="leading-relaxed">
-                Combines the uppercase letter <strong>"P"</strong> with an ascending phoenix wing. Represents innovation, resilience, and business growth.
+                Combines the uppercase letter <strong>"P"</strong> with a 3D faceted wing and a central golden prism triangle. Represents innovation, precision, and business growth.
               </p>
             </div>
             <div>
               <p className="font-bold text-slate-900 mb-1">Multi-toned Gradients</p>
               <p className="leading-relaxed">
-                Utilizes a primary gradient transition from <strong>Royal Blue</strong> to <strong>Violet-Purple</strong>, accented by an inner cyan wing for a modern, tech-forward aesthetic.
+                Utilizes a corporate gradient transition from <strong>Deep Navy</strong> to <strong>Royal Blue</strong>, accented by an inner gold prism and cyan highlights.
               </p>
             </div>
             <div>
@@ -81,7 +81,7 @@ export const LogoShowcasePage: React.FC = () => {
             </div>
           </div>
         </div>
-
+ 
         {/* Main Grid View */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
           {/* Interactive Playgrounds */}
@@ -107,7 +107,7 @@ export const LogoShowcasePage: React.FC = () => {
                 </div>
               </div>
             </div>
-
+ 
             {/* Scale Comparison Grid */}
             <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
               <h3 className="text-base font-bold text-slate-950 mb-4">Responsive Sizes Guide</h3>
@@ -132,28 +132,35 @@ export const LogoShowcasePage: React.FC = () => {
               </div>
             </div>
           </div>
-
+ 
           {/* Sidebar Properties */}
           <div className="lg:col-span-4 space-y-6">
             <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-xs">
               <h3 className="text-base font-bold text-slate-950 mb-4">Brand Asset Tokens</h3>
               <div className="space-y-4">
                 <div>
-                  <label className="text-xs text-slate-400 block mb-1.5">Primary Blue (Trust & Tech)</label>
+                  <label className="text-xs text-slate-400 block mb-1.5">Primary Navy (Trust & Depth)</label>
+                  <div className="flex items-center gap-2">
+                    <div className="w-6 h-6 rounded-md bg-[#0B2F61]" />
+                    <span className="text-xs font-mono text-slate-800">#0B2F61</span>
+                  </div>
+                </div>
+                <div>
+                  <label className="text-xs text-slate-400 block mb-1.5">Secondary Blue (Corporate & Tech)</label>
                   <div className="flex items-center gap-2">
                     <div className="w-6 h-6 rounded-md bg-[#2563EB]" />
                     <span className="text-xs font-mono text-slate-800">#2563EB</span>
                   </div>
                 </div>
                 <div>
-                  <label className="text-xs text-slate-400 block mb-1.5">Secondary Purple (Creative & Modern)</label>
+                  <label className="text-xs text-slate-400 block mb-1.5">Accent Gold (Creative Prism)</label>
                   <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 rounded-md bg-[#7C3AED]" />
-                    <span className="text-xs font-mono text-slate-800">#7C3AED</span>
+                    <div className="w-6 h-6 rounded-md bg-[#FFC107]" />
+                    <span className="text-xs font-mono text-slate-800">#FFC107</span>
                   </div>
                 </div>
                 <div>
-                  <label className="text-xs text-slate-400 block mb-1.5">Accent Cyan (Compliance & Clarity)</label>
+                  <label className="text-xs text-slate-400 block mb-1.5">Accent Cyan (Luminous Highlights)</label>
                   <div className="flex items-center gap-2">
                     <div className="w-6 h-6 rounded-md bg-[#06B6D4]" />
                     <span className="text-xs font-mono text-slate-800">#06B6D4</span>
