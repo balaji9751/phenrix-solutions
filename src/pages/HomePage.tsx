@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import { 
   ArrowRight, 
   Calendar,
-  Code2, 
-  FileSpreadsheet, 
-  ShieldCheck, 
-  Palette, 
   CheckCircle2,
   PhoneCall
 } from 'lucide-react';
@@ -119,8 +115,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 1: IT & Cloud */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="p-2 rounded-lg bg-[#2563eb] text-white shadow-xs">
-                          <Code2 className="w-4 h-4" />
+                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+                            <path d="M3 6h18v12H3V6z" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                            <path d="M5 9h14M5 12h14M5 15h14" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
+                          </svg>
                         </div>
                         <div>
                           <p className="text-xs font-bold text-[#111827]">IT & Web Applications</p>
@@ -135,8 +134,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 2: Tally & ERP */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="p-2 rounded-lg bg-[#2563eb] text-white shadow-xs">
-                          <FileSpreadsheet className="w-4 h-4" />
+                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+                            <rect x="3" y="3" width="18" height="18" rx="2" stroke="white" strokeWidth="2"/>
+                            <path d="M3 9h18M9 3v18" stroke="white" strokeWidth="2"/>
+                            <circle cx="12" cy="6" r="1" fill="white"/>
+                            <circle cx="6" cy="12" r="1" fill="white"/>
+                          </svg>
                         </div>
                         <div>
                           <p className="text-xs font-bold text-[#111827]">Tally Solutions & TDL</p>
@@ -151,8 +155,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 3: GST & Tax Compliance */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="p-2 rounded-lg bg-[#2563eb] text-white shadow-xs">
-                          <ShieldCheck className="w-4 h-4" />
+                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+                            <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            <path d="M10 14l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                          </svg>
                         </div>
                         <div>
                           <p className="text-xs font-bold text-[#111827]">GST & Business Services</p>
@@ -167,8 +174,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 4: Creative & Brand */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="p-2 rounded-lg bg-[#2563eb] text-white shadow-xs">
-                          <Palette className="w-4 h-4" />
+                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+                            <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
+                            <circle cx="8" cy="10" r="1.5" fill="white"/>
+                            <circle cx="16" cy="10" r="1.5" fill="white"/>
+                            <path d="M9 16c1 1 2 1.5 3 1.5s2-.5 3-1.5" stroke="white" strokeWidth="2" strokeLinecap="round"/>
+                          </svg>
                         </div>
                         <div>
                           <p className="text-xs font-bold text-[#111827]">Creative & Editing Services</p>
@@ -217,8 +229,36 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
           {/* 4 Professional Service Highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {TRUST_PILLARS.map((pillar, idx) => {
-              const icons = [Code2, FileSpreadsheet, ShieldCheck, Palette];
-              const Icon = icons[idx] || Code2;
+              const images = [
+                // IT & Web Applications
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                  <rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M3 9h18M9 3v18" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="7" cy="6" r="0.8" fill="currentColor"/>
+                  <circle cx="12" cy="6" r="0.8" fill="currentColor"/>
+                </svg>,
+                // Tally Solutions
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                  <path d="M4 3h16c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2z" stroke="currentColor" strokeWidth="2"/>
+                  <path d="M4 8h16M10 3v16" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="7" cy="11" r="0.8" fill="currentColor"/>
+                  <circle cx="13" cy="11" r="0.8" fill="currentColor"/>
+                </svg>,
+                // GST & Business
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                  <path d="M12 2L4 6v6c0 6.66 4.23 12.44 10 14.77 5.77-2.33 10-8.11 10-14.77V6l-8-4z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M9 13l2.5 2 5-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>,
+                // Creative & Design
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="2"/>
+                  <circle cx="8" cy="10" r="1.5" fill="currentColor"/>
+                  <circle cx="16" cy="10" r="1.5" fill="currentColor"/>
+                  <path d="M9 16c1 1 2 1.5 3 1.5s2-.5 3-1.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                  <path d="M5 5l4 4M19 5l-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              ];
+              const ImageComponent = images[idx] || images[0];
               return (
                 <Link
                   key={pillar.title}
@@ -227,7 +267,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                 >
                   <div>
                     <div className="w-12 h-12 rounded-xl bg-[#2563eb]/10 text-[#2563eb] flex items-center justify-center mb-4 group-hover:bg-[#2563eb] group-hover:text-white transition-colors duration-200">
-                      <Icon className="w-6 h-6" />
+                      {ImageComponent}
                     </div>
                     <h3 className="text-lg font-bold text-[#111827] group-hover:text-[#2563eb] transition-colors mb-1">
                       {pillar.title}
