@@ -121,30 +121,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     ],
     accentColor: '#3B82F6'
   },
-  {
-    id: 'proj-tally-2',
-    title: 'Tally-to-Cloud Remote Multi-Branch Sync & AMC Setup',
-    category: 'tally',
-    categoryLabel: 'Tally Solutions',
-    clientIndustry: 'Multi-Location Retail Chain [Demonstration Case Study]',
-    shortDescription: 'Cloud hosting setup for TallyPrime enabling secure remote access for 12 branch accountants and automated offsite backups.',
-    fullDescription: 'Configured a secure cloud infrastructure for centralized Tally access with encrypted remote desktop protocols, daily automated cloud backups, and dedicated quarterly AMC support covering ledger restructuring and GST reconciliations.',
-    challenge: 'Branch managers had to email backup files nightly, resulting in version conflicts, delayed consolidations, and data loss risks.',
-    solution: 'Migrated TallyPrime to a high-availability cloud server with user-level security permissions, real-time central ledger sync, and automated hourly snapshots.',
-    deliverables: [
-      'High-Speed Cloud Tally Instance Setup',
-      '12-User Encrypted RDP & Security Matrix Setup',
-      'Automated Nightly Backup to Offsite Cloud Storage',
-      'Annual Maintenance Contract (AMC) SLA Service Coverage'
-    ],
-    tags: ['Tally on Cloud', 'Multi-Branch Sync', 'Data Security', 'Tally AMC'],
-    metrics: [
-      { label: 'Branch Access', value: '24/7 Real-Time' },
-      { label: 'Data Latency', value: 'Zero Lag' },
-      { label: 'Backup Reliability', value: '100% Automated' }
-    ],
-    accentColor: '#1D4ED8'
-  },
+
   {
     id: 'proj-creative-2',
     title: 'High-Impact Promotional Poster & Event Campaign Series',

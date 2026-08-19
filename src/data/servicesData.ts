@@ -155,28 +155,7 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
           'Quarterly health check recommendations'
         ]
       },
-      {
-        id: 'tally-services',
-        title: 'Tally Services',
-        shortDescription: 'Professional Tally services designed to help businesses manage accounting operations efficiently.',
-        fullDescription: 'Comprehensive Tally services to keep your accounting foundation rock-solid. We provide annual maintenance contracts (AMC), cloud hosting setups for Tally on remote servers, chart of accounts restructuring, and staff operational training.',
-        iconName: 'Settings2',
-        categoryKey: 'tally',
-        route: '/services/tally#tally-services',
-        features: [
-          'Tally on Cloud (Anywhere, Anytime Access)',
-          'Tally Annual Maintenance Contract (AMC)',
-          'Chart of Accounts & Master Ledger Setup',
-          'Tally-to-Excel & Third-Party Synchronization',
-          'Operational Staff Training & Best Practices'
-        ],
-        deliverables: [
-          'AMC service contract & SLA terms',
-          'Secure Cloud Tally server credentials',
-          'Automated data export/import templates',
-          'Staff training completion checklist'
-        ]
-      }
+
     ]
   },
   {

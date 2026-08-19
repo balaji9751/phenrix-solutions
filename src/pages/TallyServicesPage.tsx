@@ -178,11 +178,7 @@ export const TallyServicesPage: React.FC<TallyServicesPageProps> = ({ onOpenCons
               <p className="text-xs text-[#4b5563]">Instant UPI payment QR codes on bills and automatic barcode label printing directly from stock items.</p>
             </div>
 
-            <div className="p-5 rounded-xl bg-[#f9fafb] border border-slate-200">
-              <Cloud className="w-6 h-6 text-[#2563eb] mb-3" />
-              <h4 className="font-bold text-[#111827] text-sm mb-1.5">Tally on Cloud & AMC</h4>
-              <p className="text-xs text-[#4b5563]">Secure remote hosting for multi-branch accounting access and annual maintenance contracts (AMC).</p>
-            </div>
+
           </div>
         </div>
       </section>
