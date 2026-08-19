@@ -120,11 +120,15 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
         categoryKey: 'tally',
         route: '/services/tally#tdl-customisation',
         features: [
-          'Custom Invoice Formats & Print Layouts',
-          'Voucher Approval Workflow & Level Controls',
-          'Barcode & QR Code Printing Integration',
-          'Custom Fields, Ledger Tags & Transaction Fields',
-          'Automated Outstanding SMS / WhatsApp Alerts'
+          'All Types of Modules Integration',
+          'Invoice & Voucher Formats Customization',
+          'Tally to Excel Data Import & Export',
+          'Advanced Custom Management Reports',
+          'User Level Security & Access Control',
+          'Custom Master Creation & Fields Addition',
+          'Barcode & QR Code Integration',
+          'SMS & Email Integration',
+          'E-Way Bill & E-Invoice Automation'
         ],
         deliverables: [
           'Compiled .tcp / .tdl customization files',

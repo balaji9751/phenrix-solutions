@@ -13,7 +13,12 @@ import {
   FileCheck,
   Lock,
   QrCode,
-  Calendar
+  Calendar,
+  FileText,
+  BarChart3,
+  Database,
+  Mail,
+  Cpu
 } from 'lucide-react';
 import { SERVICE_CATEGORIES } from '../data/servicesData';
 import { PageHeader } from '../components/common/PageHeader';
@@ -125,6 +130,14 @@ export const TallyServicesPage: React.FC<TallyServicesPageProps> = ({ onOpenCons
                         </div>
                       ))}
                     </div>
+
+                    {service.id === 'tdl-customisation' && (
+                      <div className="mt-4 p-3.5 bg-[#2563eb]/5 border border-[#2563eb]/10 rounded-xl text-center">
+                        <span className="text-xs font-bold text-[#2563eb] tracking-wide">
+                          We do all customizations in Tally
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
@@ -159,7 +172,7 @@ export const TallyServicesPage: React.FC<TallyServicesPageProps> = ({ onOpenCons
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="p-5 rounded-xl bg-[#f9fafb] border border-slate-200">
               <FileCheck className="w-6 h-6 text-[#2563eb] mb-3" />
               <h4 className="font-bold text-[#111827] text-sm mb-1.5">Custom Invoices & POs</h4>
@@ -177,8 +190,6 @@ export const TallyServicesPage: React.FC<TallyServicesPageProps> = ({ onOpenCons
               <h4 className="font-bold text-[#111827] text-sm mb-1.5">Dynamic QR & Barcode</h4>
               <p className="text-xs text-[#4b5563]">Instant UPI payment QR codes on bills and automatic barcode label printing directly from stock items.</p>
             </div>
-
-
           </div>
         </div>
       </section>
