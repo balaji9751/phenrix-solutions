@@ -1,4 +1,4 @@
-c:\Users\welcome\OneDrive\Desktop\remove 3.jpegimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { X, Calendar, CheckCircle2, Send, ShieldCheck } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { SERVICE_DROPDOWN_OPTIONS } from '../../data/servicesData';

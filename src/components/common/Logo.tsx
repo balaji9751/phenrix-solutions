@@ -131,11 +131,11 @@ export const PhenrixWordmark: React.FC<{
         Phenrix
       </span>
       <div className="flex items-center gap-1.5 mt-1">
-        <span className="h-[1px] w-2.5 opacity-60" style={{ backgroundColor: secondaryBlue }} />
+        <span className="h-px w-2.5 opacity-60" style={{ backgroundColor: secondaryBlue }} />
         <span style={{ color: secondaryBlue, fontWeight: '700', letterSpacing: '0.25em', textTransform: 'uppercase', fontSize: '0.52em', lineHeight: '1' }}>
           Solutions
         </span>
-        <span className="h-[1px] w-2.5 opacity-60" style={{ backgroundColor: secondaryBlue }} />
+        <span className="h-px w-2.5 opacity-60" style={{ backgroundColor: secondaryBlue }} />
       </div>
     </div>
   );
@@ -179,11 +179,11 @@ export const PhenrixFullLogo: React.FC<{
 
       {/* "— SOLUTIONS —" Subtitle with horizontal flanking lines */}
       <div className="flex items-center justify-center gap-1.5 mt-1.5">
-        <span className={`h-[1px] ${current.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
+        <span className={`h-px ${current.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
         <span className={`${current.subtextSize} font-bold uppercase`} style={{ color: secondaryBlue, letterSpacing: current.subSpacing, lineHeight: '1' }}>
           Solutions
         </span>
-        <span className={`h-[1px] ${current.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
+        <span className={`h-px ${current.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
       </div>
     </div>
   );
@@ -241,11 +241,11 @@ export const Logo: React.FC<LogoProps> = ({
           {/* SOLUTIONS Subtitle with horizontal lines */}
           {showTagline && (
             <div className="flex items-center gap-1.5" style={{ marginTop: config.mt }}>
-              <span className={`h-[1px] ${config.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
+              <span className={`h-px ${config.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
               <span className={`${config.taglineSize} font-bold uppercase`} style={{ color: secondaryBlue, letterSpacing: '0.25em', lineHeight: '1' }}>
                 Solutions
               </span>
-              <span className={`h-[1px] ${config.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
+              <span className={`h-px ${config.lineWidth} opacity-60`} style={{ backgroundColor: secondaryBlue }} />
             </div>
           )}
         </div>

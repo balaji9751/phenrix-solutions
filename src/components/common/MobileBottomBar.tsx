@@ -54,7 +54,7 @@ export const MobileBottomBar: React.FC<MobileBottomBarProps> = ({ onOpenConsulta
         <div className="flex flex-col items-center justify-center -mt-4">
           <button
             onClick={onOpenConsultation}
-            className="w-12 h-12 rounded-full bg-gradient-to-tr from-[#2563eb] to-[#00C5E5] text-white flex items-center justify-center shadow-lg shadow-blue-500/30 active:scale-95 transition-transform border-2 border-white"
+            className="w-12 h-12 rounded-full bg-linear-to-tr from-[#2563eb] to-[#00C5E5] text-white flex items-center justify-center shadow-lg shadow-blue-500/30 active:scale-95 transition-transform border-2 border-white"
             aria-label="Request Free Consultation"
           >
             <Calendar className="w-5 h-5" />

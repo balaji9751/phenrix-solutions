@@ -115,7 +115,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 1: IT & Cloud */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                        <div className="w-12 h-12 rounded-lg bg-linear-to-br from-blue-400 to-blue-600 flex items-center justify-center shadow-xs shrink-0">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
                             <path d="M3 6h18v12H3V6z" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                             <path d="M5 9h14M5 12h14M5 15h14" stroke="white" strokeWidth="1.5" strokeLinecap="round"/>
@@ -134,7 +134,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 2: Tally & ERP */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                        <div className="w-12 h-12 rounded-lg bg-linear-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shadow-xs shrink-0">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
                             <rect x="3" y="3" width="18" height="18" rx="2" stroke="white" strokeWidth="2"/>
                             <path d="M3 9h18M9 3v18" stroke="white" strokeWidth="2"/>
@@ -155,7 +155,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 3: GST & Tax Compliance */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                        <div className="w-12 h-12 rounded-lg bg-linear-to-br from-amber-400 to-amber-600 flex items-center justify-center shadow-xs shrink-0">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
                             <path d="M12 2L3 7v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-9-5z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                             <path d="M10 14l2 2 4-4" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -174,7 +174,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
                     {/* Module 4: Creative & Brand */}
                     <div className="p-3.5 rounded-xl bg-[#f9fafb] border border-slate-200 flex items-center justify-between hover:border-[#60a5fa] transition-colors">
                       <div className="flex items-center gap-3">
-                        <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-xs flex-shrink-0">
+                        <div className="w-12 h-12 rounded-lg bg-linear-to-br from-purple-400 to-purple-600 flex items-center justify-center shadow-xs shrink-0">
                           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
                             <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="2"/>
                             <circle cx="8" cy="10" r="1.5" fill="white"/>
