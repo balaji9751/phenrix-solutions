@@ -23,7 +23,7 @@ export const LogoShowcasePage: React.FC = () => {
               Phenrix Solutions Logo System
             </h1>
             <p className="text-sm text-slate-500 mt-1">
-              Visual brand guide and interactive display of the new Phoenix Monogram logo asset.
+              Visual brand guide and interactive display of the new Phenrix Monogram logo asset.
             </p>
           </div>
 
