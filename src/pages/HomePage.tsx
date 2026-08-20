@@ -41,7 +41,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenConsultation }) => {
 
               {/* Main Headline */}
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-[#111827] tracking-tight leading-[1.15]">
-                Smart Solutions. <br />
+                Phenrix Solutions. <br />
                 <span className="text-[#2563eb]">
                   Powerful Results.
                 </span>
